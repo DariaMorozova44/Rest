@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="17" failed="4" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-22T17:56:25 MSK" name="YouTrack API tests" finished-at="2026-05-22T17:56:31 MSK" duration-ms="6777">
+  <suite started-at="2026-06-04T17:24:01 MSK" name="YouTrack API tests" finished-at="2026-06-04T17:24:04 MSK" duration-ms="3304">
     <groups>
     </groups>
-    <test started-at="2026-05-22T17:56:25 MSK" name="All Tests" finished-at="2026-05-22T17:56:31 MSK" duration-ms="6777">
+    <test started-at="2026-06-04T17:24:01 MSK" name="All Tests" finished-at="2026-06-04T17:24:04 MSK" duration-ms="3304">
       <class name="tests.PanelTest">
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@77fbd92c]" started-at="2026-05-22T17:56:25 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-05-22T17:56:30 MSK" duration-ms="4954" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:01 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="2633" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Main Dashboard]]>
+                <![CDATA[Main Dashboard1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@77fbd92c]" started-at="2026-05-22T17:56:30 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-05-22T17:56:30 MSK" duration-ms="187" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="47" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Secondary Panel]]>
+                <![CDATA[Secondary Panel2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@77fbd92c]" started-at="2026-05-22T17:56:30 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-05-22T17:56:30 MSK" duration-ms="117" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="87" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@77fbd92c]" started-at="2026-05-22T17:56:30 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-05-22T17:56:30 MSK" duration-ms="132" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="78" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@77fbd92c]" started-at="2026-05-22T17:56:30 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-05-22T17:56:30 MSK" duration-ms="119" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="52" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@77fbd92c]" started-at="2026-05-22T17:56:30 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-05-22T17:56:30 MSK" duration-ms="121" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="76" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@77fbd92c]" started-at="2026-05-22T17:56:30 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-05-22T17:56:31 MSK" duration-ms="121" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="79" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@77fbd92c]" started-at="2026-05-22T17:56:31 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-05-22T17:56:31 MSK" duration-ms="137" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="64" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@77fbd92c]" started-at="2026-05-22T17:56:31 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-05-22T17:56:31 MSK" duration-ms="205" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="38" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,7 +106,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@77fbd92c]" started-at="2026-05-22T17:56:31 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-05-22T17:56:31 MSK" duration-ms="96" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="47" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@77fbd92c]" started-at="2026-05-22T17:56:31 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-05-22T17:56:31 MSK" duration-ms="100" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="36" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,23 +130,11 @@
         </test-method> <!-- testCreatePanel -->
       </class> <!-- tests.PanelTest -->
       <class name="tests.TaskTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@74fe5c40]" started-at="2026-05-22T17:56:24 MSK" name="setup" finished-at="2026-05-22T17:56:25 MSK" duration-ms="641" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[perm-YWRtaW4=.NDEtMA==.NPQ6k63oTQXu0Y3ja2fSENvjz1zYkx]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://localhost:8082/]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TaskTest@65fb9ffc]" started-at="2026-06-04T17:24:01 MSK" name="setup" finished-at="2026-06-04T17:24:01 MSK" duration-ms="474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@74fe5c40]" started-at="2026-05-22T17:56:25 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-05-22T17:56:30 MSK" duration-ms="4954" status="PASS">
+        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@65fb9ffc]" started-at="2026-06-04T17:24:01 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-06-04T17:24:03 MSK" duration-ms="1610" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,11 +151,16 @@
                 <![CDATA[0-0]]>
               </value>
             </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateIssue -->
-        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@74fe5c40]" started-at="2026-05-22T17:56:30 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-05-22T17:56:30 MSK" duration-ms="628" status="PASS">
+        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@65fb9ffc]" started-at="2026-06-04T17:24:03 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-06-04T17:24:03 MSK" duration-ms="92" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -184,11 +177,16 @@
                 <![CDATA[0-0]]>
               </value>
             </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateIssue -->
-        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@74fe5c40]" started-at="2026-05-22T17:56:30 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-05-22T17:56:31 MSK" duration-ms="480" status="FAIL">
+        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@65fb9ffc]" started-at="2026-06-04T17:24:03 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-06-04T17:24:03 MSK" duration-ms="69" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -205,84 +203,16 @@
                 <![CDATA[0-0]]>
               </value>
             </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-Expected status code <200> but was <400>.
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <200> but was <400>.
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$5.call(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-at io.restassured.specification.ResponseSpecification$statusCode$2.callCurrent(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at tests.TaskTest.CreateIssue(TaskTest.java:36)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
-at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
-at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:151)
-at org.testng.internal.thread.graph.TestNGFutureTask.<init>(TestNGFutureTask.java:15)
-at org.testng.internal.thread.graph.GraphOrchestrator.runNodes(GraphOrchestrator.java:58)
-at org.testng.internal.thread.graph.GraphOrchestrator.run(GraphOrchestrator.java:46)
-at org.testng.TestTaskExecutor.execute(TestTaskExecutor.java:69)
-at org.testng.TestRunner.privateRun(TestRunner.java:725)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateIssue -->
-        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@74fe5c40]" started-at="2026-05-22T17:56:31 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-05-22T17:56:31 MSK" duration-ms="82" status="FAIL">
+        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@65fb9ffc]" started-at="2026-06-04T17:24:03 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-06-04T17:24:03 MSK" duration-ms="36" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -299,86 +229,18 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
                 <![CDATA[999-999]]>
               </value>
             </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-Expected status code <200> but was <400>.
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <200> but was <400>.
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$5.call(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-at io.restassured.specification.ResponseSpecification$statusCode$2.callCurrent(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at tests.TaskTest.CreateIssue(TaskTest.java:36)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
-at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
-at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:151)
-at org.testng.internal.thread.graph.TestNGFutureTask.<init>(TestNGFutureTask.java:15)
-at org.testng.internal.thread.graph.GraphOrchestrator.runNodes(GraphOrchestrator.java:58)
-at org.testng.internal.thread.graph.GraphOrchestrator.run(GraphOrchestrator.java:46)
-at org.testng.TestTaskExecutor.execute(TestTaskExecutor.java:69)
-at org.testng.TestRunner.privateRun(TestRunner.java:725)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateIssue -->
       </class> <!-- tests.TaskTest -->
       <class name="tests.ReportTest">
-        <test-method signature="testCreateReport(java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@4550bb58]" started-at="2026-05-22T17:56:25 MSK" name="testCreateReport" data-provider="data" finished-at="2026-05-22T17:56:30 MSK" duration-ms="4954" status="PASS">
+        <test-method signature="testCreateReport(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@2d3379b4]" started-at="2026-06-04T17:24:01 MSK" name="testCreateReport" data-provider="data" finished-at="2026-06-04T17:24:03 MSK" duration-ms="1610" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -390,11 +252,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
                 <![CDATA[IssuePerProjectReport]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateReport -->
-        <test-method signature="testCreateReport(java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@4550bb58]" started-at="2026-05-22T17:56:30 MSK" name="testCreateReport" data-provider="data" finished-at="2026-05-22T17:56:30 MSK" duration-ms="188" status="PASS">
+        <test-method signature="testCreateReport(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@2d3379b4]" started-at="2026-06-04T17:24:03 MSK" name="testCreateReport" data-provider="data" finished-at="2026-06-04T17:24:03 MSK" duration-ms="50" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -406,11 +273,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
                 <![CDATA[IssuePerProjectReport]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateReport -->
-        <test-method signature="testCreateReport(java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@4550bb58]" started-at="2026-05-22T17:56:30 MSK" name="testCreateReport" data-provider="data" finished-at="2026-05-22T17:56:30 MSK" duration-ms="162" status="FAIL">
+        <test-method signature="testCreateReport(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@2d3379b4]" started-at="2026-06-04T17:24:03 MSK" name="testCreateReport" data-provider="data" finished-at="2026-06-04T17:24:03 MSK" duration-ms="48" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -422,86 +294,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
                 <![CDATA[IssuePerProjectReport]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-Expected status code <200> but was <400>.
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <200> but was <400>.
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$5.call(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-at io.restassured.specification.ResponseSpecification$statusCode$2.callCurrent(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at tests.ReportTest.testCreateReport(ReportTest.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
-at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
-at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:151)
-at org.testng.internal.thread.graph.TestNGFutureTask.<init>(TestNGFutureTask.java:15)
-at org.testng.internal.thread.graph.GraphOrchestrator.runNodes(GraphOrchestrator.java:58)
-at org.testng.internal.thread.graph.GraphOrchestrator.run(GraphOrchestrator.java:46)
-at org.testng.TestTaskExecutor.execute(TestTaskExecutor.java:69)
-at org.testng.TestRunner.privateRun(TestRunner.java:725)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateReport -->
-        <test-method signature="testCreateReport(java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@4550bb58]" started-at="2026-05-22T17:56:30 MSK" name="testCreateReport" data-provider="data" finished-at="2026-05-22T17:56:30 MSK" duration-ms="109" status="FAIL">
+        <test-method signature="testCreateReport(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@2d3379b4]" started-at="2026-06-04T17:24:03 MSK" name="testCreateReport" data-provider="data" finished-at="2026-06-04T17:24:03 MSK" duration-ms="47" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -510,112 +312,25 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
             </param>
             <param index="1">
               <value>
-                <![CDATA[]]>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-Expected status code <200> but was <400>.
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <200> but was <400>.
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$5.call(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-at io.restassured.specification.ResponseSpecification$statusCode$2.callCurrent(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at tests.ReportTest.testCreateReport(ReportTest.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
-at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
-at java.base/java.util.concurrent.FutureTask.<init>(FutureTask.java:151)
-at org.testng.internal.thread.graph.TestNGFutureTask.<init>(TestNGFutureTask.java:15)
-at org.testng.internal.thread.graph.GraphOrchestrator.runNodes(GraphOrchestrator.java:58)
-at org.testng.internal.thread.graph.GraphOrchestrator.run(GraphOrchestrator.java:46)
-at org.testng.TestTaskExecutor.execute(TestTaskExecutor.java:69)
-at org.testng.TestRunner.privateRun(TestRunner.java:725)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateReport -->
       </class> <!-- tests.ReportTest -->
       <class name="tests.ProjectTest">
-        <test-method signature="testCreateProject(java.lang.String,java.lang.String)[pri:0, instance:tests.ProjectTest@55183b20]" started-at="2026-05-22T17:56:30 MSK" name="testCreateProject" finished-at="2026-05-22T17:56:31 MSK" duration-ms="1135" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2-1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://localhost:8082/api/admin/projects]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="testCreateProject()[pri:0, instance:tests.ProjectTest@75d4a5c2]" started-at="2026-06-04T17:24:03 MSK" name="testCreateProject" finished-at="2026-06-04T17:24:04 MSK" duration-ms="872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateProject -->
-        <test-method signature="testGetProjectListSuccess(java.lang.String)[pri:0, instance:tests.ProjectTest@55183b20]" started-at="2026-05-22T17:56:31 MSK" name="testGetProjectListSuccess" finished-at="2026-05-22T17:56:31 MSK" duration-ms="107" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://localhost:8082/api/admin/projects]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="testGetProjectListSuccess()[pri:0, instance:tests.ProjectTest@75d4a5c2]" started-at="2026-06-04T17:24:04 MSK" name="testGetProjectListSuccess" finished-at="2026-06-04T17:24:04 MSK" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetProjectListSuccess -->

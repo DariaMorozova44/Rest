@@ -22,7 +22,8 @@ public class CsvDataProviderTask {
                 String summary = rows.get(i)[0];
                 String description = rows.get(i)[1];
                 String projectId = rows.get(i)[2];
-                data.add(new Object[]{summary, description, projectId});
+                String status = rows.get(i)[3];
+                data.add(new Object[]{summary, description, projectId, status});
             }
         } catch (CsvException e) {
             throw new RuntimeException(e);

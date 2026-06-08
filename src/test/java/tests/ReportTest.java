@@ -1,34 +1,30 @@
 package tests;
 
+import api.ReportApi;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import dto.ReportDto;
 import helpers.CsvDataProviderReport;
-import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
 public class ReportTest extends BaseTest {
+    private final ReportApi reportApi = new ReportApi();
     @Test(dataProvider = "data", dataProviderClass = CsvDataProviderReport.class)
 
-    public void testCreateReport(String name, String typeDiscriminator) {
+    public void testCreateReport(String name, String typeDiscriminator, String status) {
 
         ReportDto newReport = new ReportDto();
         newReport.setName(name);
         newReport.setTypeDiscriminator(typeDiscriminator);
-        Response response = given()
-                .body(newReport)
-                .when()
-                .post("http://localhost:8082/api/reports")
-                .then()
-                .log().all()
-                .statusCode(200)
-                .extract().response();
+        var response = reportApi.createReport(newReport);
 
-
-                assertThat(response.jsonPath().getString("$type"), equalTo("IssuePerProjectReport"));
-
+        if (Integer.parseInt(status) == 200) {
+            response.then().spec(getSuccessSpec());
+        } else if (Integer.parseInt(status) == 400) {
+            response.then().spec(badRequestSpec());
+        }
     }
 }
 

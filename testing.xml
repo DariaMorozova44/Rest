@@ -1,17 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="YouTrack API tests" parallel="classes" thread-count="3">
-    <parameter name="permanentToken" value="perm-YWRtaW4=.NDEtMA==.NPQ6k63oTQXu0Y3ja2fSENvjz1zYkx"/>
-    <parameter name="baseUrl" value="http://localhost:8082/"/>
-    <parameter name="projectUrl" value="http://localhost:8082/api/admin/projects"/>
-    <parameter name="id_leader" value="2-1"/>
     <test name="All Tests">
         <classes>
             <class name="tests.TaskTest"/>
             <class name="tests.ReportTest"/>
             <class name="tests.PanelTest"/>
             <class name="tests.ProjectTest"/>
-
-
         </classes>
     </test>
 </suite>

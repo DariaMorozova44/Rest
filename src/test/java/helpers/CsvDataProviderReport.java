@@ -22,7 +22,8 @@ public class CsvDataProviderReport {
             for (int i = 1; i < rows.size(); i++) {
                 String name = rows.get(i)[0];
                 String type = rows.get(i)[1];
-                data.add(new Object[]{name, type});
+                String status = rows.get(i)[2];
+                data.add(new Object[]{name, type, status});
             }
         } catch (CsvException e) {
             throw new RuntimeException(e);
