@@ -1,19 +1,21 @@
 package api;
 
 import dto.PanelDto;
-import helpers.ConfigLoader;
+import endpoints.Endpoints;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import io.restassured.specification.ResponseSpecification;
+import specification.Specifications;
 
 public class PanelApi {
+
 
 
     public Response createPanel(PanelDto panelDto) {
         return RestAssured.given()
                 .body(panelDto)
-                .post(ConfigLoader.getPanelUrl())
+                .post(Endpoints.CREATE_DASHBOARDS)
                 .then()
+                .spec(Specifications.getSuccessSpec())
                 .extract().response();
     }
 }

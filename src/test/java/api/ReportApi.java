@@ -1,11 +1,10 @@
 package api;
 
 import dto.ReportDto;
-import helpers.ConfigLoader;
+import endpoints.Endpoints;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import io.restassured.specification.ResponseSpecification;
 
 public class ReportApi {
 
@@ -15,9 +14,8 @@ public class ReportApi {
                 .contentType(ContentType.JSON)
                 .log().all()
                 .body(reportDto)
-                .post(ConfigLoader.getReportUrl())
+                .post(Endpoints.CREATE_REPORTS)
                 .then()
-                .log().all()
                 .extract().response();
     }
 

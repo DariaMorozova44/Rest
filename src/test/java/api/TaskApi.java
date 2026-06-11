@@ -1,10 +1,9 @@
 package api;
 
 import dto.TaskDto;
-import helpers.ConfigLoader;
+import endpoints.Endpoints;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import io.restassured.specification.ResponseSpecification;
 
 public class TaskApi {
 
@@ -12,7 +11,7 @@ public class TaskApi {
     public Response createIssue(TaskDto taskDto) {
         return RestAssured.given()
                 .body(taskDto)
-                .post(ConfigLoader.getIssueUrl())
+                .post(Endpoints.CREATE_ISSUE)
                 .then()
                 .log().all()
                 .extract().response();

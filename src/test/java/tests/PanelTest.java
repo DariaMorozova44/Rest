@@ -2,7 +2,6 @@ package tests;
 
 import api.PanelApi;
 import dto.PanelDto;
-import helpers.ConfigLoader;
 import helpers.CsvDataProviderPanel;
 import org.testng.annotations.Test;
 
@@ -15,7 +14,6 @@ public class PanelTest extends BaseTest {
 
     @Test(dataProvider = "data_panel", dataProviderClass = CsvDataProviderPanel.class)
     public void testCreatePanel(String name) {
-        System.out.println("Token: " + ConfigLoader.getToken());
         PanelDto panelDto = new PanelDto();
         panelDto.setName(name);
        var response = panelApi.createPanel(panelDto);

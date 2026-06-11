@@ -4,11 +4,9 @@ import api.TaskApi;
 import dto.TaskDto;
 import helpers.CsvDataProviderTask;
 import org.testng.annotations.Test;
+import specification.Specifications;
 
 import java.util.Map;
-
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.equalTo;
 
 
 public class TaskTest extends BaseTest {
@@ -24,9 +22,9 @@ public class TaskTest extends BaseTest {
 
         var response = taskApi.createIssue(taskDto);
         if (Integer.parseInt(status) == 200) {
-            response.then().spec(getSuccessSpec());
+            response.then().spec(Specifications.getSuccessSpec());
         } else if (Integer.parseInt(status) == 400) {
-            response.then().spec(badRequestSpec());
+            response.then().spec(Specifications.badRequestSpec());
         }
     }
 }

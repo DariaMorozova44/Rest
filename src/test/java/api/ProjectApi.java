@@ -1,10 +1,10 @@
 package api;
 
 import dto.ProjectDto;
-import helpers.ConfigLoader;
+import endpoints.Endpoints;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import io.restassured.specification.ResponseSpecification;
+import specification.Specifications;
 
 
 public class ProjectApi  {
@@ -13,16 +13,18 @@ public class ProjectApi  {
         return RestAssured.given()
                 .queryParam("$top", -1)
                 .queryParam("$skip", 0)
-                .get(ConfigLoader.getProjectUrl())
+                .get(Endpoints.GET_PROJECTS)
                 .then()
+                .spec(Specifications.getSuccessSpec())
                 .extract().response();
     }
 
     public Response createProject(ProjectDto projectDto) {
         return RestAssured.given()
                 .body(projectDto)
-                .post(ConfigLoader.getProjectUrl())
+                .post(Endpoints.GET_PROJECTS)
                 .then()
+                .spec(Specifications.getSuccessSpec())
                 .extract().response();
     }
 }

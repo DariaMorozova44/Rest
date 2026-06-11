@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-04T17:24:01 MSK" name="YouTrack API tests" finished-at="2026-06-04T17:24:04 MSK" duration-ms="3304">
+  <suite started-at="2026-06-11T17:28:15 MSK" name="YouTrack API tests" finished-at="2026-06-11T17:28:18 MSK" duration-ms="3370">
     <groups>
     </groups>
-    <test started-at="2026-06-04T17:24:01 MSK" name="All Tests" finished-at="2026-06-04T17:24:04 MSK" duration-ms="3304">
+    <test started-at="2026-06-11T17:28:15 MSK" name="All Tests" finished-at="2026-06-11T17:28:18 MSK" duration-ms="3370">
       <class name="tests.PanelTest">
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:01 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="2633" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@313ac989]" started-at="2026-06-11T17:28:15 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-11T17:28:17 MSK" duration-ms="2662" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="47" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@313ac989]" started-at="2026-06-11T17:28:17 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-11T17:28:18 MSK" duration-ms="60" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="87" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@313ac989]" started-at="2026-06-11T17:28:18 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-11T17:28:18 MSK" duration-ms="81" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="78" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@313ac989]" started-at="2026-06-11T17:28:18 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-11T17:28:18 MSK" duration-ms="61" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="52" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@313ac989]" started-at="2026-06-11T17:28:18 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-11T17:28:18 MSK" duration-ms="45" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="76" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@313ac989]" started-at="2026-06-11T17:28:18 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-11T17:28:18 MSK" duration-ms="83" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="79" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@313ac989]" started-at="2026-06-11T17:28:18 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-11T17:28:18 MSK" duration-ms="65" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="64" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@313ac989]" started-at="2026-06-11T17:28:18 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-11T17:28:18 MSK" duration-ms="69" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="38" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@313ac989]" started-at="2026-06-11T17:28:18 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-11T17:28:18 MSK" duration-ms="67" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,7 +106,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="47" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@313ac989]" started-at="2026-06-11T17:28:18 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-11T17:28:18 MSK" duration-ms="58" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePanel -->
-        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@13c9d689]" started-at="2026-06-04T17:24:04 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-04T17:24:04 MSK" duration-ms="36" status="PASS">
+        <test-method signature="testCreatePanel(java.lang.String)[pri:0, instance:tests.PanelTest@313ac989]" started-at="2026-06-11T17:28:18 MSK" name="testCreatePanel" data-provider="data_panel" finished-at="2026-06-11T17:28:18 MSK" duration-ms="58" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,11 +130,11 @@
         </test-method> <!-- testCreatePanel -->
       </class> <!-- tests.PanelTest -->
       <class name="tests.TaskTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TaskTest@65fb9ffc]" started-at="2026-06-04T17:24:01 MSK" name="setup" finished-at="2026-06-04T17:24:01 MSK" duration-ms="474" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TaskTest@4f83df68]" started-at="2026-06-11T17:28:14 MSK" name="setup" finished-at="2026-06-11T17:28:15 MSK" duration-ms="525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@65fb9ffc]" started-at="2026-06-04T17:24:01 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-06-04T17:24:03 MSK" duration-ms="1610" status="PASS">
+        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@4f83df68]" started-at="2026-06-11T17:28:15 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-06-11T17:28:16 MSK" duration-ms="1613" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -160,7 +160,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateIssue -->
-        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@65fb9ffc]" started-at="2026-06-04T17:24:03 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-06-04T17:24:03 MSK" duration-ms="92" status="PASS">
+        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@4f83df68]" started-at="2026-06-11T17:28:16 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-06-11T17:28:17 MSK" duration-ms="84" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -186,7 +186,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateIssue -->
-        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@65fb9ffc]" started-at="2026-06-04T17:24:03 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-06-04T17:24:03 MSK" duration-ms="69" status="PASS">
+        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@4f83df68]" started-at="2026-06-11T17:28:17 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-06-11T17:28:17 MSK" duration-ms="71" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -212,7 +212,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateIssue -->
-        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@65fb9ffc]" started-at="2026-06-04T17:24:03 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-06-04T17:24:03 MSK" duration-ms="36" status="PASS">
+        <test-method signature="CreateIssue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TaskTest@4f83df68]" started-at="2026-06-11T17:28:17 MSK" name="CreateIssue" data-provider="data_task" finished-at="2026-06-11T17:28:17 MSK" duration-ms="31" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -240,7 +240,7 @@
         </test-method> <!-- CreateIssue -->
       </class> <!-- tests.TaskTest -->
       <class name="tests.ReportTest">
-        <test-method signature="testCreateReport(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@2d3379b4]" started-at="2026-06-04T17:24:01 MSK" name="testCreateReport" data-provider="data" finished-at="2026-06-04T17:24:03 MSK" duration-ms="1610" status="PASS">
+        <test-method signature="testCreateReport(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@351d00c0]" started-at="2026-06-11T17:28:15 MSK" name="testCreateReport" data-provider="data" finished-at="2026-06-11T17:28:16 MSK" duration-ms="1613" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -261,7 +261,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateReport -->
-        <test-method signature="testCreateReport(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@2d3379b4]" started-at="2026-06-04T17:24:03 MSK" name="testCreateReport" data-provider="data" finished-at="2026-06-04T17:24:03 MSK" duration-ms="50" status="PASS">
+        <test-method signature="testCreateReport(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@351d00c0]" started-at="2026-06-11T17:28:16 MSK" name="testCreateReport" data-provider="data" finished-at="2026-06-11T17:28:16 MSK" duration-ms="45" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -282,7 +282,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateReport -->
-        <test-method signature="testCreateReport(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@2d3379b4]" started-at="2026-06-04T17:24:03 MSK" name="testCreateReport" data-provider="data" finished-at="2026-06-04T17:24:03 MSK" duration-ms="48" status="PASS">
+        <test-method signature="testCreateReport(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@351d00c0]" started-at="2026-06-11T17:28:16 MSK" name="testCreateReport" data-provider="data" finished-at="2026-06-11T17:28:17 MSK" duration-ms="50" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -303,7 +303,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateReport -->
-        <test-method signature="testCreateReport(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@2d3379b4]" started-at="2026-06-04T17:24:03 MSK" name="testCreateReport" data-provider="data" finished-at="2026-06-04T17:24:03 MSK" duration-ms="47" status="PASS">
+        <test-method signature="testCreateReport(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ReportTest@351d00c0]" started-at="2026-06-11T17:28:17 MSK" name="testCreateReport" data-provider="data" finished-at="2026-06-11T17:28:17 MSK" duration-ms="40" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -326,11 +326,11 @@
         </test-method> <!-- testCreateReport -->
       </class> <!-- tests.ReportTest -->
       <class name="tests.ProjectTest">
-        <test-method signature="testCreateProject()[pri:0, instance:tests.ProjectTest@75d4a5c2]" started-at="2026-06-04T17:24:03 MSK" name="testCreateProject" finished-at="2026-06-04T17:24:04 MSK" duration-ms="872" status="PASS">
+        <test-method signature="testCreateProject()[pri:0, instance:tests.ProjectTest@459e9125]" started-at="2026-06-11T17:28:17 MSK" name="testCreateProject" finished-at="2026-06-11T17:28:17 MSK" duration-ms="907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateProject -->
-        <test-method signature="testGetProjectListSuccess()[pri:0, instance:tests.ProjectTest@75d4a5c2]" started-at="2026-06-04T17:24:04 MSK" name="testGetProjectListSuccess" finished-at="2026-06-04T17:24:04 MSK" duration-ms="97" status="PASS">
+        <test-method signature="testGetProjectListSuccess()[pri:0, instance:tests.ProjectTest@459e9125]" started-at="2026-06-11T17:28:17 MSK" name="testGetProjectListSuccess" finished-at="2026-06-11T17:28:18 MSK" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetProjectListSuccess -->

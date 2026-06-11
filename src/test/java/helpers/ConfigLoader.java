@@ -29,16 +29,5 @@ public class ConfigLoader {
     public static String getIdLeader() {
         return properties.getProperty("id_leader");
     }
-    public static String getProjectUrl() {
-        return properties.getProperty("projectUrl");
-    }
-    public static String getPanelUrl() {
-        return properties.getProperty("createPanelUrl");
-    }
-    public static String getReportUrl() {
-        return properties.getProperty("createReportUrl");
-    }
-    public static String getIssueUrl() {
-        return properties.getProperty("createIssueUrl");
-    }
+
 }
